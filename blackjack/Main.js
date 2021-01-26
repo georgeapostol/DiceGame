@@ -27,8 +27,8 @@ if (pair.total() >= dice.number){
 player1 = new Player();
 player2 = new Player();
 
-var G = player1.player_sum();
-var V = player2.player_sum();
+var p1 = player1.player_sum();
+var p2 = player2.player_sum();
 
 
 
@@ -37,12 +37,12 @@ var V = player2.player_sum();
 //coin.toss();
 
 //while(coin.number != 1) {
-    if (G > V) {
-        console.log( " George wins " + G + " to " + V);
+    if (p1 > p2) {
+        console.log( " Player 1 wins " + p1 + " to " + p2);
             //break
     }
     else {
-        console.log( " Vanessa wins " + V + " to " + G);
+        console.log( " Player 2 wins " + p2 + " to " + p1);
         //break
     }
 
